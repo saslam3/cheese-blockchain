@@ -12,7 +12,7 @@ Basic records and document hashes will be stored on-chain, while larger files wi
 Solidity, Hardhat, Node.js, npm, OpenZeppelin, IPFS, and a browser wallet. We plan to demo on Sepolia and explore Polygon for lower fees.
 
 ## Setup
-The repository currently contains a draft contract interface. Once the Hardhat configuration and dependency files are added:
+The repository currently contains a draft contract interface. 
 
 Install Node.js and npm.
 
@@ -30,6 +30,12 @@ Producers will register cheese wheels, holders will transfer ownership, and insp
 We will test locally before deploying to Sepolia. Deployment instructions will be added later.
 
 ## Current Files
+- `contracts/Cheese.sol`: initial smart contract design, functions not implemented yet 
+- `.gitignore`
+- `hardhat.config.ts`: Hardhat config
+- `package-lock.json`: Dependency version info
+- `package.json`: Project dependencies
 - `README.md`: project overview and planned setup
+- `tsconfig.json`: TypeScript config
 
 The contract implementation, tests, IPFS connection, simulation, and web page are still planned.
